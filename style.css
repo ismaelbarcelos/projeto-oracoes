@@ -1,0 +1,260 @@
+.textos_home{
+  text-align: center;
+  
+}
+
+.parallax {
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,2.5), rgba(0,0,0,0.5)), url("imagens/oracoeshome.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#cruz{
+  font-size: 55px;
+  margin-bottom: 35px;
+  color:#D4AF37 ;
+}
+#refugio{
+  color: #D4AF37;
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+#oracoes{
+font-size: 3.2rem;
+}
+#transformam{
+  color: #D4AF37;
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+}
+
+.btnComecar{
+  align-self: center;
+  width: 150px;
+  height: 50px;
+  background:#D4AF37 ;
+  border-radius: 50px;
+  border: none;
+}
+
+
+/* fundamento da fé */
+
+.fundamentos{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+}
+
+.fundamentos-da-fe{
+  color: rgb(226, 122, 47);
+  font-size: 1.5rem;
+}
+
+.oracoes-essenciais{
+  color: rgb(20, 23, 73);
+}
+
+
+/*cards de orações */
+
+.cards3 {
+  background:rgba(226, 236, 252, 0.384);
+  border-radius: 25px;
+  margin-top: 15px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px rgb(172, 201, 245);
+}
+.cards3:hover{
+   background:rgba(201, 220, 248, 0.384);
+}
+.cards3 h3{
+  text-align: left;
+  color: rgb(20, 23, 73);
+font-size: 1.7rem;
+}
+.cards3 h4{
+font-size: 1.2rem;
+margin: 20px;
+
+}
+
+.cards3 p{
+  background: #fcfdfd;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px  rgb(124, 125, 126);
+}
+
+
+
+/*cards orações */
+.hoverCards{
+  border-radius: 23px;
+}
+
+.hoverCards i{
+font-size: 30px;
+margin: 15px;
+}
+
+.hoverCards i:hover{
+  font-size: 36px;
+  
+}
+.hoverCards h5{
+font-size: 1.4rem;
+}
+.hoverCards p:hover{
+   color: rgb(15, 15, 15);
+}
+.hoverCards:hover{
+  box-shadow: 0px 1px 5px rgb(100, 104, 105);
+  margin-left: 3px;
+  margin-top: 2px;
+  color: rgb(226, 122, 47);
+}
+
+
+.basicas{
+ color: orange;
+}
+.marianas{
+ color: rgb(79, 162, 240);
+}
+
+.noite{
+ color: rgb(107, 70, 243);
+ 
+}
+
+
+
+
+
+
+/*<!--jornada de fé-->*/
+
+.jornda-da-fe{
+
+  background:#1E3A5F;
+   background: linear-gradient(to right, #1E3A5F, #4d6b92);
+   
+ 
+}
+.paddin-2col{
+  padding-top: 130px;
+}
+#sua-jornada{
+  masrgin-bottom: 100px; 
+  
+   
+}
+#sua-jornada h1{
+  margin-top: 130px;
+}
+.jornada{
+  color: #D4AF37;
+}
+
+.pJornada{
+  color: #fcfdfd;
+}
+
+
+
+
+
+
+
+
+
+/*recursos para catecumenos*/
+#caminho-de-oracao i{
+  font-size: 1.5rem;
+  color: #9e7c0c;
+  margin: 10px;
+
+}
+
+.passo {
+  color: #be981a;
+  font-size: 1.1rem;
+}
+
+.conselhos{
+  color: #fcfdfd;
+  font-size: 1rem;
+}
+
+#caminho-de-oracao h2{
+  color: aliceblue;
+}
+
+#caminho-de-oracao h3{
+  color: aliceblue;
+  font-size: 1.3rem;
+
+}
+
+
+
+
+
+.card-catemumenos{
+ background:#45576eaf;
+ margin-left: 25px;
+ border-radius: 15px;
+ 
+}
+.card-catemumenos {
+  color: #fcfdfd;
+}
+.card-catemumenos a{
+  margin: 8px;
+  color: rgb(215, 221, 226);
+}
+.card-catemumenos a:hover{
+  color: #ffffff;
+}
+.card-catemumenos i{
+  margin: 5px;
+  color: #e0af0e;
+}
+
+.card-catemumenos i:hover{
+  padding-left:4px ;
+}
+
+.card-card-mateus{
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  border:#3a3b3ba9 1px solid;
+   background: linear-gradient(to right, #f39f3077, #aa4c0e57);
+}
+
+.card-card-mateus p{
+  color: #e0af0e;
+}
+
+
+footer{
+  padding-top: 120px;
+   background: linear-gradient(to right, #173357, #415f86);
+}
