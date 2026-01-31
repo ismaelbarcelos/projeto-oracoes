@@ -22,6 +22,24 @@ li{
 a{
   text-decoration: none;
 }
+
+/*menu */
+#nav-background{
+  background: #9a9c9c;
+}
+
+.nav-link{
+  color: #1f2020;
+}
+.nav-link:hover{
+color: #9e7c0c;
+}
+
+.dropdown-item:hover{
+  color: #9e7c0c;
+}
+
+
 #cruz{
   font-size: 55px;
   margin-bottom: 35px;
@@ -160,11 +178,7 @@ font-size: 1.4rem;
 .paddin-2col{
   padding-top: 130px;
 }
-#sua-jornada{
-  masrgin-bottom: 100px; 
-  
-   
-}
+
 #sua-jornada h1{
   margin-top: 130px;
 }
@@ -185,6 +199,8 @@ font-size: 1.4rem;
 
 
 /*recursos para catecumenos*/
+
+
 #caminho-de-oracao i{
   font-size: 1.5rem;
   color: #9e7c0c;
@@ -217,7 +233,7 @@ font-size: 1.4rem;
 
 
 .card-catemumenos{
- background:#45576eaf;
+  background:#45576eaf;
  margin-left: 25px;
  border-radius: 15px;
  
@@ -256,5 +272,13 @@ font-size: 1.4rem;
 
 footer{
   padding-top: 120px;
+  padding-bottom: 10px;
    background: linear-gradient(to right, #173357, #415f86);
+}
+
+#direitos{
+  text-align: center;
+  color: floralwhite;
+  font-size: 1.2rem;
+  padding-top: 100px;
 }
