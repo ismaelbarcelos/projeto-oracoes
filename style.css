@@ -2,6 +2,9 @@
   text-align: center;
   
 }
+.font h1,h2,h3,h4{
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .parallax {
   height: 100vh;
@@ -69,6 +72,13 @@ font-size: 3.2rem;
   border: none;
 }
 
+.btnComecar a{
+  color: #ffffff;
+}
+
+.btnComecar:hover{
+  background: #e2b00d;
+}
 
 /* fundamento da fé */
 

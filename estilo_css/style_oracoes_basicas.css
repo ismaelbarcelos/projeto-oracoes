@@ -1,14 +1,69 @@
 .oracoes_banner{
    height: 100vh;
-  background:linear-gradient(rgba(0,0,0,2.5), rgba(0, 0, 0, 0.479)), url("imagens/oracoescover.jpg");
+  background:linear-gradient(rgba(0,0,0,2.5), rgba(100, 97, 97, 0.479)), url("/imagens/oracoesbanner.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   
+}
+
+.oracoes_banner i{
+  color: brown;
+font-size: 45px;
+text-align: center;
+margin-top: 650px;
+position: relative;
+}
+
+.mover {
+  animation: slide 2s infinite ease-in-out;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translatey(50px);
+  }
+}
+
+
+.oracoes_basicas{
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  box-shadow: 0px 0px 1px darkgoldenrod;
+  background: ;
+}
+
+.oracoes_basicas h3{
+margin-bottom: 25px;
+font-size: 1.7rem;
+color: darkgoldenrod;
+}
+
+.oracoes_basicas p{
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .oracoes_banner i {
+    margin-top: 180px;
+  }
 }
